@@ -1,7 +1,7 @@
 import Fastify from "fastify";
 import cors from '@fastify/cors'
 import {z} from 'zod';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@prisma/client'; //prisma/client faz a conexão com o banco de dados
 import ShortUniqueId from 'short-unique-id';
 
 const prisma = new PrismaClient({
